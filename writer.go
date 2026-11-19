@@ -31,6 +31,15 @@ type Writer struct {
 	Codec  Codec
 	Filter Filter
 
+	// NoIndex, set before the first DATA frame, keeps no index and writes no
+	// INDEX frame at Close. The index costs an entry per DATA frame for the
+	// writer's whole life, which is what a file wants and what a live stream
+	// that is never closed into one does not: a writer feeding subscribers a
+	// frame per record would otherwise grow by an entry a record without end.
+	// A stream without an INDEX is a valid file, as one cut short is; a reader
+	// that wants an index scans for it.
+	NoIndex bool
+
 	// OnFrame, if set, is called for every frame this writer emits, in the
 	// order it emits them and once the frame's bytes have gone out. It is the
 	// mirror of Reader.OnFrame and exists for the same reason: the sequence of
@@ -421,15 +430,17 @@ func (w *Writer) WriteData(s *Schema, base AxisVal, runID uint32, recordCount ui
 		w.curRun[s.UUID] = runID
 	}
 
-	if _, seen := w.index[s.UUID]; !seen {
-		w.order = append(w.order, s.UUID)
+	if !w.NoIndex {
+		if _, seen := w.index[s.UUID]; !seen {
+			w.order = append(w.order, s.UUID)
+		}
+		w.index[s.UUID] = append(w.index[s.UUID], indexEntry{
+			offset:  w.off,
+			first:   base,
+			records: recordCount,
+			runID:   runID,
+		})
 	}
-	w.index[s.UUID] = append(w.index[s.UUID], indexEntry{
-		offset:  w.off,
-		first:   base,
-		records: recordCount,
-		runID:   runID,
-	})
 
 	payload := records
 	filter := w.Filter
@@ -474,8 +485,10 @@ func (w *Writer) WriteData(s *Schema, base AxisVal, runID uint32, recordCount ui
 // Close writes the index and the end frame. A file that never reaches Close —
 // power loss, a killed process — is still valid; it simply lacks both.
 func (w *Writer) Close() error {
-	if err := w.writeIndex(); err != nil {
-		return err
+	if !w.NoIndex {
+		if err := w.writeIndex(); err != nil {
+			return err
+		}
 	}
 	return w.frame(FrameEnd, 0, nil)
 }

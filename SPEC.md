@@ -1169,6 +1169,10 @@ file lands. The reader knows where the INDEX frame is, because it just read it.
 Purely an accelerator — a reader MUST be able to rebuild it by scanning, and MUST
 NOT trust it over the frames themselves.
 
+A writer MAY omit it. A live stream that is never closed into a file has no use
+for one, and building it costs an entry per DATA frame for as long as the stream
+runs; the Go writer's `NoIndex` leaves it out.
+
 An index that disagrees with the data is a corrupt index, not corrupt data. This
 inversion of authority is what lets rule 2 hold: the file is correct without it.
 It also means **concatenation may simply discard both indexes** (§6.6): the result
