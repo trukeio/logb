@@ -29,7 +29,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/rveen/logb"
+	"github.com/trukeio/logb"
 )
 
 var (

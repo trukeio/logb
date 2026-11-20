@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/rveen/logb/viewer/decimate"
-	"github.com/rveen/logb/viewer/index"
+	"github.com/trukeio/logb/viewer/decimate"
+	"github.com/trukeio/logb/viewer/index"
 )
 
 type eventsDTO struct {

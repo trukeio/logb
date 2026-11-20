@@ -3,7 +3,7 @@ package index
 import (
 	"sort"
 
-	"github.com/rveen/logb"
+	"github.com/trukeio/logb"
 )
 
 // FrameRef locates one frame in the file.

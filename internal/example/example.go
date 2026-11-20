@@ -40,7 +40,7 @@ import (
 	"math/rand"
 
 	"github.com/google/uuid"
-	"github.com/rveen/logb"
+	"github.com/trukeio/logb"
 )
 
 // epoch is the recording's start: 2026-03-14T09:26:53Z, in nanoseconds. A

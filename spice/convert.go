@@ -7,8 +7,8 @@ import (
 	"strings"
 
 	"github.com/google/uuid"
-	"github.com/rveen/logb"
-	"github.com/rveen/logb/internal/tick"
+	"github.com/trukeio/logb"
+	"github.com/trukeio/logb/internal/tick"
 )
 
 // Options controls Convert.

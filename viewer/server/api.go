@@ -14,9 +14,9 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/rveen/logb/viewer/decimate"
-	"github.com/rveen/logb/viewer/index"
-	"github.com/rveen/logb/viewer/query"
+	"github.com/trukeio/logb/viewer/decimate"
+	"github.com/trukeio/logb/viewer/index"
+	"github.com/trukeio/logb/viewer/query"
 )
 
 // Server serves one indexed file.

@@ -9,7 +9,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/rveen/logb"
+	"github.com/trukeio/logb"
 )
 
 // decode reads a payload back through the path a recording takes: the

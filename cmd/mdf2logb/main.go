@@ -28,9 +28,9 @@ import (
 	"os"
 	"strings"
 
-	"github.com/rveen/logb"
-	"github.com/rveen/logb/dbc"
-	"github.com/rveen/logb/mdf"
+	"github.com/trukeio/logb"
+	"github.com/trukeio/logb/dbc"
+	"github.com/trukeio/logb/mdf"
 )
 
 var (

@@ -8,7 +8,7 @@ component is under a proprietary or source-available license.
 Go (server side)
 ----------------
 
-github.com/rveen/logb              MIT           the core reader
+github.com/trukeio/logb              MIT           the core reader
 github.com/klauspost/compress      Apache-2.0    zstd, via the core reader
 github.com/google/uuid             BSD-3-Clause  via the core reader's testdata generator
 

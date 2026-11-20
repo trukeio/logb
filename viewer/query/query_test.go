@@ -4,7 +4,7 @@ import (
 	"math"
 	"testing"
 
-	"github.com/rveen/logb/viewer/index"
+	"github.com/trukeio/logb/viewer/index"
 )
 
 const testFile = "../../testdata/can-example.logb"

@@ -10,9 +10,9 @@ import (
 	"testing"
 
 	"github.com/google/uuid"
-	"github.com/rveen/logb"
-	"github.com/rveen/logb/viewer/index"
-	"github.com/rveen/logb/viewer/query"
+	"github.com/trukeio/logb"
+	"github.com/trukeio/logb/viewer/index"
+	"github.com/trukeio/logb/viewer/query"
 )
 
 // serveRack writes a supply channel set to 12 V at 1 s and restated in three

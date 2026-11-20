@@ -7,8 +7,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/rveen/logb/viewer/index"
-	"github.com/rveen/logb/viewer/query"
+	"github.com/trukeio/logb/viewer/index"
+	"github.com/trukeio/logb/viewer/query"
 )
 
 // MaxExportRecords bounds a CSV export.

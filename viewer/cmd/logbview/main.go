@@ -25,10 +25,10 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/rveen/logb/viewer/index"
-	"github.com/rveen/logb/viewer/query"
-	"github.com/rveen/logb/viewer/server"
-	"github.com/rveen/logb/viewer/web"
+	"github.com/trukeio/logb/viewer/index"
+	"github.com/trukeio/logb/viewer/query"
+	"github.com/trukeio/logb/viewer/server"
+	"github.com/trukeio/logb/viewer/web"
 )
 
 func main() {

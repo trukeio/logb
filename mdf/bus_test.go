@@ -8,8 +8,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/rveen/logb"
-	"github.com/rveen/logb/dbc"
+	"github.com/trukeio/logb"
+	"github.com/trukeio/logb/dbc"
 )
 
 // Decoding a bus recording is the whole point of the exercise: a CAN log holds

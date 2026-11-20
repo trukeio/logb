@@ -4,7 +4,7 @@ import (
 	"math"
 	"testing"
 
-	"github.com/rveen/logb/viewer/index"
+	"github.com/trukeio/logb/viewer/index"
 )
 
 // series builds a synthetic time series. A nil present slice means all present.

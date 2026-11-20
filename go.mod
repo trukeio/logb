@@ -1,4 +1,4 @@
-module github.com/rveen/logb
+module github.com/trukeio/logb
 
 go 1.25.6
 

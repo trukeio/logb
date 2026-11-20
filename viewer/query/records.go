@@ -3,7 +3,7 @@ package query
 import (
 	"fmt"
 
-	"github.com/rveen/logb/viewer/index"
+	"github.com/trukeio/logb/viewer/index"
 )
 
 // DefaultRecordLimit bounds one page of the record table.

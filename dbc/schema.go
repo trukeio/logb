@@ -5,8 +5,8 @@ import (
 	"sort"
 
 	"github.com/google/uuid"
-	"github.com/rveen/logb"
-	"github.com/rveen/logb/internal/tick"
+	"github.com/trukeio/logb"
+	"github.com/trukeio/logb/internal/tick"
 )
 
 // AxisBits is the space a decoded stream leaves in front of the payload for its

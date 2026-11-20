@@ -3,7 +3,7 @@ package index
 import (
 	"math"
 
-	"github.com/rveen/logb"
+	"github.com/trukeio/logb"
 )
 
 // Stat summarises one field over one DATA frame.

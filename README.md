@@ -1,6 +1,6 @@
 # logb
 
-[![Go Reference](https://pkg.go.dev/badge/github.com/rveen/logb.svg)](https://pkg.go.dev/github.com/rveen/logb)
+[![Go Reference](https://pkg.go.dev/badge/github.com/trukeio/logb.svg)](https://pkg.go.dev/github.com/trukeio/logb)
 
 A self-describing binary format for time-series measurement, bus-trace, and
 simulation recording — designed to be written by embedded loggers and read by
@@ -195,7 +195,7 @@ bytes, the format changed.
 ## Install
 
 ```sh
-go get github.com/rveen/logb
+go get github.com/trukeio/logb
 ```
 
 ## Concepts
@@ -235,7 +235,7 @@ import (
 	"io"
 
 	"github.com/google/uuid"
-	"github.com/rveen/logb"
+	"github.com/trukeio/logb"
 )
 
 // A schema declares the record layout, the axis, and the stream's identity.
@@ -475,7 +475,7 @@ go run ./cmd/logbdump /tmp/cut.logb       # 302 records, TRUNCATED
 - [viewer/](viewer/) — `logbview`, a browser-based viewer for `.logb` files
 - [python/](python/) — a dependency-free Python writer, byte-compatible with the Go one
 - [STATUS.md](STATUS.md) — implementation state and the design decisions
-- [pkg.go.dev](https://pkg.go.dev/github.com/rveen/logb) — API reference
+- [pkg.go.dev](https://pkg.go.dev/github.com/trukeio/logb) — API reference
 
 ## License
 

@@ -11,7 +11,7 @@ It indexes the file, starts a local HTTP server, and opens your browser at it.
 
 ## Download
 
-Prebuilt binaries are on the [releases page](https://github.com/rveen/logb/releases),
+Prebuilt binaries are on the [releases page](https://github.com/trukeio/logb/releases),
 under tags named `viewer/vX.Y.Z`. Each is a single self-contained file with the
 UI embedded; nothing else needs installing.
 
@@ -42,7 +42,7 @@ module, so a viewer release does not give the core library a version.
 ## Why this is a separate module
 
 The core library advertises a ~1000-line reader with near-zero dependencies
-(SPEC.md rule 4), and everyone who `go get`s `github.com/rveen/logb` downloads
+(SPEC.md rule 4), and everyone who `go get`s `github.com/trukeio/logb` downloads
 the whole module zip. The nested `go.mod` here keeps the embedded frontend
 bundle out of the parent module's file set, so the core stays as small as it
 claims to be. The server itself is Go standard library only.

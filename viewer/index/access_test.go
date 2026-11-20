@@ -9,7 +9,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/rveen/logb"
+	"github.com/trukeio/logb"
 )
 
 func accessor(t *testing.T) (*File, *Accessor) {

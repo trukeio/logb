@@ -4,7 +4,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/rveen/logb"
+	"github.com/trukeio/logb"
 )
 
 const sample = `VERSION "test"

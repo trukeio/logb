@@ -7,8 +7,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/rveen/logb/viewer/index"
-	"github.com/rveen/logb/viewer/query"
+	"github.com/trukeio/logb/viewer/index"
+	"github.com/trukeio/logb/viewer/query"
 )
 
 // State is the server's view of a file that may still be being indexed.

@@ -4,7 +4,7 @@ import (
 	"encoding/hex"
 	"net/http"
 
-	"github.com/rveen/logb/viewer/index"
+	"github.com/trukeio/logb/viewer/index"
 )
 
 // DefaultFrameLimit bounds how many frames /api/frames will enumerate.

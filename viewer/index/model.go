@@ -22,7 +22,7 @@ import (
 	"math"
 	"strconv"
 
-	"github.com/rveen/logb"
+	"github.com/trukeio/logb"
 )
 
 // Class says how a field wants to be drawn. It is decided once, at index time,

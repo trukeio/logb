@@ -7,7 +7,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/rveen/logb"
+	"github.com/trukeio/logb"
 )
 
 // The importer's real test is not that it produces a file — it is that the file

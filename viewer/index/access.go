@@ -9,7 +9,7 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/rveen/logb"
+	"github.com/trukeio/logb"
 )
 
 // fileHeaderSize is the 16-byte header every Logb file opens with.

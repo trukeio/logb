@@ -10,8 +10,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/rveen/logb/viewer/index"
-	"github.com/rveen/logb/viewer/query"
+	"github.com/trukeio/logb/viewer/index"
+	"github.com/trukeio/logb/viewer/query"
 )
 
 func serve(t *testing.T) *httptest.Server {

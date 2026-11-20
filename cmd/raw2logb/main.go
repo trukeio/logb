@@ -21,8 +21,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/rveen/logb"
-	"github.com/rveen/logb/spice"
+	"github.com/trukeio/logb"
+	"github.com/trukeio/logb/spice"
 )
 
 var (

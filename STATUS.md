@@ -31,7 +31,7 @@ never point forward. A writer only appends; a reader only scans.
 ## State: working, committed
 
 ```
-github.com/rveen/logb/
+github.com/trukeio/logb/
   SPEC.md        draft spec v0.1, 13 sections
   BNF.md         the same bytes as a grammar, one diagram per structure
   CAN.md         DBC/MDF4 bit ordering, and what Logb does instead

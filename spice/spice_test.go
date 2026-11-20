@@ -8,7 +8,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/rveen/logb"
+	"github.com/trukeio/logb"
 )
 
 func readRaw(t *testing.T, path string) *Raw {

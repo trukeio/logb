@@ -7,7 +7,7 @@ import (
 	"math"
 
 	"github.com/google/uuid"
-	"github.com/rveen/logb"
+	"github.com/trukeio/logb"
 )
 
 // BigOptions controls GenerateBig.

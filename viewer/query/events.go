@@ -1,9 +1,9 @@
 package query
 
 import (
-	"github.com/rveen/logb"
-	"github.com/rveen/logb/viewer/decimate"
-	"github.com/rveen/logb/viewer/index"
+	"github.com/trukeio/logb"
+	"github.com/trukeio/logb/viewer/decimate"
+	"github.com/trukeio/logb/viewer/index"
 )
 
 // DefaultMaxEvents bounds how many individual events the exact path will send.

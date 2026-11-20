@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/rveen/logb"
+	"github.com/trukeio/logb"
 )
 
 // Cell is one field of one record, ready to show or export.

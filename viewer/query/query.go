@@ -20,9 +20,9 @@ import (
 	"runtime"
 	"sync"
 
-	"github.com/rveen/logb"
-	"github.com/rveen/logb/viewer/decimate"
-	"github.com/rveen/logb/viewer/index"
+	"github.com/trukeio/logb"
+	"github.com/trukeio/logb/viewer/decimate"
+	"github.com/trukeio/logb/viewer/index"
 )
 
 // Defaults chosen to be comfortable rather than clever. Tune with the fields

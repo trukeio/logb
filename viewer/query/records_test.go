@@ -9,8 +9,8 @@ import (
 	"testing"
 
 	"github.com/google/uuid"
-	"github.com/rveen/logb"
-	"github.com/rveen/logb/viewer/index"
+	"github.com/trukeio/logb"
+	"github.com/trukeio/logb/viewer/index"
 )
 
 // scanRecords reads a stream's records with a plain sequential logb.Reader —

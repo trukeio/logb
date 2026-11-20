@@ -8,7 +8,7 @@ import (
 	"sort"
 	"time"
 
-	"github.com/rveen/logb"
+	"github.com/trukeio/logb"
 )
 
 // ErrNotIndexable is returned by a Recorder asked to write a stream it cannot

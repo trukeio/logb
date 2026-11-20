@@ -1,6 +1,6 @@
 package index
 
-import "github.com/rveen/logb"
+import "github.com/trukeio/logb"
 
 // SeriesFrom builds the series for one field out of already-decoded batches.
 //

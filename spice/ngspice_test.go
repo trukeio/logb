@@ -9,7 +9,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/rveen/logb"
+	"github.com/trukeio/logb"
 )
 
 // The ngspice fixtures are written by ngspice 47 from testdata/ngspice.cir,

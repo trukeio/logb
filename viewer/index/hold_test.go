@@ -7,7 +7,7 @@ import (
 	"testing"
 
 	"github.com/google/uuid"
-	"github.com/rveen/logb"
+	"github.com/trukeio/logb"
 )
 
 func rackSchema() *logb.Schema {

@@ -4,7 +4,7 @@ import (
 	"container/list"
 	"sync"
 
-	"github.com/rveen/logb"
+	"github.com/trukeio/logb"
 )
 
 // batchCache is a bounded LRU of decoded DATA frames, keyed by file offset.

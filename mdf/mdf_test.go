@@ -7,7 +7,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/rveen/logb"
+	"github.com/trukeio/logb"
 )
 
 func read(t *testing.T, name string) *File {

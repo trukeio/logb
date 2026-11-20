@@ -11,8 +11,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/rveen/logb"
-	"github.com/rveen/logb/internal/example"
+	"github.com/trukeio/logb"
+	"github.com/trukeio/logb/internal/example"
 )
 
 var update = flag.Bool("update", false, "rewrite testdata/can-example.logb")

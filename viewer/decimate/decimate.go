@@ -18,7 +18,7 @@ import (
 	"math"
 	"sort"
 
-	"github.com/rveen/logb/viewer/index"
+	"github.com/trukeio/logb/viewer/index"
 )
 
 // Envelope is a decimated numeric series, one entry per bucket.

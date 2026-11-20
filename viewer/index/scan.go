@@ -12,7 +12,7 @@ import (
 	"sort"
 	"time"
 
-	"github.com/rveen/logb"
+	"github.com/trukeio/logb"
 )
 
 // Options control how a file is opened.

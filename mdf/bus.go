@@ -4,9 +4,9 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"github.com/rveen/logb"
-	"github.com/rveen/logb/dbc"
-	"github.com/rveen/logb/internal/tick"
+	"github.com/trukeio/logb"
+	"github.com/trukeio/logb/dbc"
+	"github.com/trukeio/logb/internal/tick"
 )
 
 // Decoding a bus recording against a database.

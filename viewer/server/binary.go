@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/rveen/logb/viewer/decimate"
+	"github.com/trukeio/logb/viewer/decimate"
 )
 
 // The binary series encoding.
